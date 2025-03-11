@@ -1,12 +1,18 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
+import Navbar from "./States/Navbar";
+import UseData from "./States/UseData";
 
 function App() {
   return (
     <>
-      <h1>Codings First</h1>
+      {/* <Navbar
+        home={"Home Page"}
+        about={"About Us"}
+        contact={"Contact Page"}
+        team={"Team Page"}
+        services={"Services Pge"}
+      /> */}
+      <UseData/>
     </>
   );
 }
